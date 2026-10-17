@@ -1,0 +1,46 @@
+:root {
+
+    /* =========================
+       Colors
+       ========================= */
+
+    --color-primary-bg: #FFF4E7;
+    --color-secondary-bg: #FFFFFF;
+
+    --color-btn-bg: #FF900E;
+    --color-btn-text: #FFFFFF;
+
+    --color-heading: #131313;
+    --color-text: #727272;
+
+
+    /* =========================
+       Typography
+       ========================= */
+
+    --font-primary: "Work Sans", sans-serif;
+
+
+    /* =========================
+       Button
+       ========================= */
+
+    --btn-width: 180px;
+    --btn-height: 63px;
+    --btn-padding: 20px 24px;
+    --btn-radius: 8px;
+
+
+    /* =========================
+       Container
+       ========================= */
+
+    --container-width: 1200px;
+
+
+    /* =========================
+       Section
+       ========================= */
+
+    --section-padding: 80px;
+}

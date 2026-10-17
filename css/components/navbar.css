@@ -1,0 +1,65 @@
+.site-header {
+    width: 100%;
+    background-color: var(--color-primary-bg);
+}
+
+.site-logo {
+    font-family: var(--font-primary);
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--color-heading);
+}
+
+.site-logo:hover {
+    color: var(--color-heading);
+}
+
+.nav-link {
+    font-family: var(--font-primary);
+    font-size: 12px;
+    font-weight: 500;
+    color: #424242;
+}
+
+.nav-link:hover {
+    color: var(--color-btn-bg);
+}
+
+/* Hamburger */
+.navbar-toggler {
+    border: 1px solid #131313;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+
+/* Desktop */
+#mainNavbar {
+    display: flex;
+}
+
+#mainNavbar .navbar-nav {
+    display: flex;
+}
+
+
+/* Mobile */
+@media (max-width: 991.98px) {
+
+    #mainNavbar {
+        display: none;
+        width: 100%;
+    }
+
+    #mainNavbar.active {
+        display: block;
+    }
+
+    #mainNavbar .navbar-nav {
+        flex-direction: column;
+        padding-top: 20px;
+        gap: 10px;
+    }
+}

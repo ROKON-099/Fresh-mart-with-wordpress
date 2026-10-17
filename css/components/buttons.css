@@ -1,0 +1,29 @@
+.btn-custom {
+    width: var(--btn-width);
+    height: var(--btn-height);
+
+    padding: var(--btn-padding);
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: var(--color-btn-bg);
+    color: var(--color-btn-text);
+
+    font-family: var(--font-primary);
+    font-size: 18px;
+    font-weight: 600;
+
+    border: none;
+    border-radius: var(--btn-radius);
+
+    cursor: pointer;
+
+    transition: all 0.3s ease;
+}
+
+.btn-custom:hover {
+    background-color: #e57f00;
+    color: var(--color-btn-text);
+}
